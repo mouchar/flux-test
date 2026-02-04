@@ -3,4 +3,9 @@ kind: Kustomization
 resources:
   - namespace.yaml
   - ../../base/multiapp
+patches:
+  - path: podinfo-values.yaml
+    target:
+      kind: HelmRelease
+      name: multiapp
 namespace: ns1
