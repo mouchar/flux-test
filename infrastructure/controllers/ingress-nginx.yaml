@@ -48,4 +48,4 @@ spec:
         certManager:
           enabled: true
       service:
-        type: "NodePort"
+        type: "LoadBalancer"
