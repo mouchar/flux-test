@@ -4,7 +4,7 @@ resources:
   - namespace.yaml
   - ../../base/multiapp
 patches:
-  - path: podinfo-values.yaml
+  - path: multiapp-values.yaml
     target:
       kind: HelmRelease
       name: multiapp
