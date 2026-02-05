@@ -20,5 +20,5 @@ spec:
       copy:
         - from: "@monorepo/apps/base/**"
           to: "@artifact/base/"
-        - from: "@monorepo/apps/staging/**"
+        - from: "@monorepo/apps/${CLUSTER_NAME}/**"
           to: "@artifact/staging/"
